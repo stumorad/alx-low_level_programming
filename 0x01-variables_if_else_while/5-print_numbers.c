@@ -1,5 +1,3 @@
-#include <stdlib.h>
-#include <time.h>
 /* more headers goes there */
 #include <stdio.h>
 /* betty style doc for function main goes there */
@@ -11,11 +9,10 @@
 
 int main(void)
 {
-	/* your code goes there */
-	char i;
-	
+int i;
+
 	for (i = 0 ; i <= 9 ; i++)
-		putchar(i);
-	putchar('\n');
+		printf("%d", i);
+	printf("\n");
 	return (0);
 }
