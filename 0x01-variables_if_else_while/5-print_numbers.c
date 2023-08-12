@@ -14,7 +14,7 @@ int main(void)
 	/* your code goes there */
 	char i;
 	
-	for (i = '0' ; i < '10' ; i++)
+	for (i = 0 ; i <= 9 ; i++)
 		putchar(i);
 
 	return (0);
