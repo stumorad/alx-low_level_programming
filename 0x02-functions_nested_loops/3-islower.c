@@ -6,7 +6,7 @@
  * Return: 1 or 0
  */
 
-void _islower(void)
+int _islower(int c)
 {
 	if (c >= 97 && c <= 122)
 	{
