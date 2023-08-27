@@ -3,11 +3,9 @@
  * print_times_table - yeb main
  * @n: int
  */
-
 void print_times_table(int n)
 {
 	int i, j, k;
-
 
 	if (n >= 0 && n <= 15)
 	{
