@@ -5,6 +5,7 @@
  * @s: char
  * Return: w
  */
+
 int count_word(char *s)
 {
 	int flag, c, w;
