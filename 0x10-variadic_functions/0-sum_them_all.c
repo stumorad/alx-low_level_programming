@@ -5,7 +5,7 @@
  * sum_them_all - yeb prototype
  * @n: int
  * @...: int
- * Return: 0, sum
+ * Return: sum
  */
 
 int sum_them_all(const unsigned int n, ...)
