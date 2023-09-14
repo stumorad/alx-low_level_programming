@@ -1,7 +1,6 @@
 #include "variadic_functions.h"
 #include <stdio.h>
 #include <stdarg.h>
-#include <_putchar.c>
 /**
  * print_numbers - yeb prototype
  * @separator: char
@@ -24,7 +23,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 			printf("%s", separator);
 	}
 
-	_putchar("\n");
+	printf("\n");
 
 	va_end(nums);
 }
