@@ -42,6 +42,6 @@ void print_all(const char * const format, ...)
 			i++;
 		}
 	}
-	printf("\n");
+	_putchar("\n");
 	va_end(list);
 }
