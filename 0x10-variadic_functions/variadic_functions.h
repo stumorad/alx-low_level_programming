@@ -1,5 +1,5 @@
-#ifndef VARDIAC_HEADER
-#define VARDIAC_HEADER
+#ifndef _VARDIAC_HEADER_
+#define _VARDIAC_HEADER_
 
 int _putchar(char c);
 int sum_them_all(const unsigned int n, ...);
