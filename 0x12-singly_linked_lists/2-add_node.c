@@ -1,6 +1,6 @@
-#include "lists.h"
 #include <stdlib.h>
 #include <string.h>
+#include "lists.h"
 /**
  * add_node - yeb prototype
  * @head: double pointer
