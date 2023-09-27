@@ -1,9 +1,10 @@
 #include "lists.h"
 /**
- * listint_len - prints number of lists
+ * listint_len - print number of list
  * @h: pointer
  * Return: num
  */
+
 size_t listint_len(const listint_t *h)
 {
 	size_t num = 0;
@@ -15,4 +16,4 @@ size_t listint_len(const listint_t *h)
 	}
 
 	return (num);
-
+}
