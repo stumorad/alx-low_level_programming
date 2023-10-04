@@ -20,7 +20,7 @@ void close_elf(int elf);
 /**
  * check_elf - yeb prototype
  * @e_ident: unsigned char
- * */
+ */
 
 heck_elf(unsigned char *e_ident)
 {
@@ -179,8 +179,7 @@ void print_osabi(unsigned char *e_ident)
 
 void print_abi(unsigned char *e_ident)
 {
-	printf(" ABI Version: %d\n",
-		e_ident[EI_ABIVERSION]);
+	printf(" ABI Version: %d\n", e_ident[EI_ABIVERSION]);
 }
 /**
  * print_type - yeb prototype
@@ -193,24 +192,22 @@ void print_type(unsigned int e_type, unsigned char *e_ident)
 	if (e_ident[EI_DATA] == ELFDATA2MSB)
 		e_type >>= 8;
 
-	printf(" Type: ");
-
 	switch (e_type)
 	{
 	case ET_NONE:
-		printf("NONE (None)\n");
+		printf(" Type: NONE (None)\n");
 		break;
 	case ET_REL:
-		printf("REL (Relocatable file)\n");
+		printf(" Type: REL (Relocatable file)\n");
 		break;
 	case ET_EXEC:
-		printf("EXEC (Executable file)\n");
+		printf(" Type: EXEC (Executable file)\n");
 		break;
 	case ET_DYN:
-		printf("DYN (Shared object file)\n");
+		printf(" Type: DYN (Shared object file)\n");
 		break;
 	case ET_CORE:
-		printf("CORE (Core file)\n");
+		printf(" Type: CORE (Core file)\n");
 		break;
 	default:
 		printf("<unknown: %x>\n", e_type);
