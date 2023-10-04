@@ -2,7 +2,8 @@
 /**
  * append_text_to_file - yeb prototype
  * @filename: constant char
- * @text_content: char
+ * @text_content: char string
+ * Return: 1, -1
  */
 
 int append_text_to_file(const char *filename, char *text_content)
